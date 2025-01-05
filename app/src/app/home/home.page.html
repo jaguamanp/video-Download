@@ -1,0 +1,22 @@
+<ion-header>
+  <ion-toolbar>
+      <ion-title>Descargar de YouTube</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-item>
+      <ion-label position="floating">URL del Video</ion-label>
+      <ion-input [(ngModel)]="videoUrl" type="url"></ion-input>
+  </ion-item>
+
+  <ion-item>
+      <ion-label>Formato</ion-label>
+      <ion-select [(ngModel)]="selectedFormat">
+          <ion-select-option value="mp3">MP3</ion-select-option>
+          <ion-select-option value="mp4">MP4</ion-select-option>
+      </ion-select>
+  </ion-item>
+
+  <ion-button expand="block" (click)="download()">Descargar</ion-button>
+</ion-content>

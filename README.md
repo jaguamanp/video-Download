@@ -44,7 +44,7 @@ Sigue los pasos a continuación para configurar y ejecutar el proyecto:
 ### Configuración del frontend
 1. Navega al directorio del frontend:
    ```bash
-   cd frontend/app-youtube
+   cd app
    ```
 2. Instala las dependencias de Ionic:
    ```bash
